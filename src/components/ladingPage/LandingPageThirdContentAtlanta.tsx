@@ -76,9 +76,10 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 acessível a qualquer momento, a partir do seu telefone. Não é magia, é a força da conectividade. 
                                 Seus investimentos, seu controle absoluto.  
                                 <br/>
-                                <strong><em>💼📈 #ConexãoTotal #InvestimentosEmpoderados </em></strong>
-
+                                
+                                <strong><em>💼📈#ConexãoTotal#InvestimentosEmpoderados</em></strong>
                             </p>
+                            
 
                         </div>
 
@@ -106,7 +107,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 você possui recursos de primeira linha para dominar a bolsa. 
                                 Este é o poder de ter a XP Investimentos ao seu lado: você no controle, você no topo!  
                                 <br/>
-                                <strong><em>💼🏛️ #TitãDosInvestimentos #AtlantaInvest</em></strong>
+                                <strong><em>💼🏛️#TitãDosInvestimentos#AtlantaInvest</em></strong>
 
                             </p>
 
@@ -128,7 +129,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 Com o Cartão XP, a liberdade financeira está nas suas mãos, 
                                 e os benefícios estão ao seu alcance. 💼💰  
                                 <br/>
-                                <strong><em>💼💰 #CartãoXP #LiberdadeFinanceira</em></strong>
+                                <strong><em>💼💰#CartãoXP#LiberdadeFinanceira</em></strong>
 
                             </p>
                         </div>
@@ -162,7 +163,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                         Aqui, a volatilidade não é uma ameaça, mas sim uma ferramenta para alcançar crescimento exponencial. 
                         Esteja preparado para triunfar onde outros hesitam. 
                         <br/>
-                        <strong><em>💼📈 #VolatilidadeEmDinheiro #GanhosExponenciais</em></strong>  
+                        <strong><em>💼📈 #VolatilidadeEmDinheiro#Market</em></strong>  
                     </p>
 
                     </div>
@@ -174,7 +175,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 E na renda fixa, onde os resultados podem parecer estáticos, revelamos a mágica dos juros compostos. 
                                 Aqui, o dinamismo é o que impulsiona o retorno sólido.
                                 <br/>
-                                <strong><em>💼💰 #JurosCompostos #RendaFixaDinâmica</em></strong>
+                                <strong><em>💼💰 #JurosCompostos#RendaFixaDinâmica</em></strong>
                             </p>
                         </div>
                         <div>
@@ -185,7 +186,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 enquanto você desfruta do presente, construímos um futuro financeiramente sólido para você. Aqui, 
                                 a tranquilidade é uma conquista alcançável.
                                 <br/>
-                                <strong><em>💼🏖️ #FuturoConfortável #PresenteSeguro</em></strong>
+                                <strong><em>💼🏖️ #FuturoConfortável#PresenteSeguro</em></strong>
 
                             </p>
                         </div>

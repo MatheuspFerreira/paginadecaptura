@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 940px;
+    height: 970px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.61) 100%), url(https://d335luupugsy2.cloudfront.net/cms/files/580675/1673898198/$w3zi1fctcg);
     background-position-x: 0%;
     background-position-y: 100%;
@@ -57,17 +57,7 @@ header {
     font-weight: 500;
 
 }
-
-@keyframes reflectionAnimation {
-    0% {
-      background-position: -100% 0;
-    }
-    100% {
-      background-position: 100% 0;
-    }
-  }
-  
-  
+   
 .LadingPageFirst__button {
     width: 100%;
     max-width: 400px;
@@ -75,8 +65,6 @@ header {
     font-size: 26px;
     font-weight: 600;
     background-color:#d4a149;; 
-    /* background-image: linear-gradient(90deg, transparent 20%,white, #05235d,#05235d, white);
-    background-size: 200% 100%; */
     color: white;
     margin-top: 30px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -97,6 +85,49 @@ header {
     max-width: 410px !important;
     border: 1px solid white;
 
+}
+
+@media screen and (max-width:1390px) {
+    header {
+        height: 710px;
+        padding-top: 30px;
+        justify-content: initial;
+       
+    }
+
+    .LadingPageFirst__logoContainer {
+        margin-bottom: 40px;
+    }
+    
+    .LadingPageFirst__text h1 {
+        font-size: 21px !important;
+        margin-bottom: 5px;
+        line-height: 1.9rem;
+    }
+
+    .LadingPageFirst__button {
+        width: 100%;
+        max-width: 400px;
+        height: 50px;
+        font-size: 26px;
+        font-weight: 600;
+        background-color:#d4a149;; 
+        color: white;
+        margin-top: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        animation: reflectionAnimation 5s linear infinite;
+    
+    }
+
+    .LadingPageFirst__btn {
+        margin-top: 15px;
+    }
+
+    .LadingPageFirst__btn h2{
+        font-size: 22px;
+        
+    }
+    
 }
 
 

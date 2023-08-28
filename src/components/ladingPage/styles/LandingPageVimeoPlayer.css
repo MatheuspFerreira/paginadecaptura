@@ -52,3 +52,19 @@
     width: 28%;
    
 }
+
+@media screen and (max-width:1390px) {
+    .LandingPageVimeoPlayer__container {
+        display: flex;
+        max-height: 300px;
+        max-width: 300px;
+    
+    }
+    
+    .LandingPageVimeoPlayer__bg {
+        max-height:300px;
+        max-width:300px;
+      
+    }
+    
+}

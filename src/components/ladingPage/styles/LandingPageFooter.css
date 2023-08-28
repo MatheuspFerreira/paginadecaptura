@@ -1,3 +1,119 @@
 .LandingPageFooter__container {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.72) 0%, rgba(255,255,255,0.72) 100%), url(https://d335luupugsy2.cloudfront.net/cms/files/580675/1673960752/$8627ly882yx);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom-style: none;
+    border-color: #000000;
+    border-left-style: none;
+    border-radius: 0px;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 100px;
+
+}
+
+.LandingPageFooter__logoAtlanta {
+    width: 260px;
+    height: auto;
+
+}
+
+.LandingPageFooter__container h2 {
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
+.LandingPageFooter__container strong {
+    color: #cf9a40;
+
+}
+
+.LadingPageFooter__CopyRight {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #273551;
+    margin-top: 30px;
     
 }
+
+.LandingPageFooter__adress {
+    width: 100%;
+    height: auto;
+
+}
+
+.LandingPageFooter__adress p {
+    font-size: 17px;
+
+}
+.LandingPageFooter__adress a {
+    color: #000000;
+    font-weight: 600;
+
+}
+
+.LadingPageFooter__linkAtlanta {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.LandingPageFooter__social {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+
+}
+
+.LandingPageFooter__social ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.LandingPageFooter__social li {
+    display: block;
+    cursor: pointer;
+    
+    
+}
+
+.LandingPageFooter__social img {
+    width: 30px;
+
+}
+
+.LadingPageFooter__CopyRight p {
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+    

@@ -8,6 +8,7 @@ export function LandingPageVimeoPlayer() {
   const playerRef = useRef<Vimeo | null>(null);
   const [isMuted, setIsMuted] = useState(true);
   const [showMessage, setShowMessage] = useState(true);
+  const [pageWidth, setPageWidth] = useState<number>(window.screen.width);
 
   useEffect(() => {
     if (!vimeoPlayerRef.current) return;
@@ -39,6 +40,18 @@ export function LandingPageVimeoPlayer() {
     };
   }, []);
 
+  const handleResize = () => {
+    console.log(window.screen.width)
+    setPageWidth(window.screen.width);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div
 
@@ -49,14 +62,17 @@ export function LandingPageVimeoPlayer() {
             className="LandingPageVimeoPlayer__content"
         >
             <iframe
-                src={`https://player.vimeo.com/video/792323441?h=bb57d65414&autoplay=1&muted=1&title=0&byline=0&portrait=0`}
-                width="100%"
-                height="400"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                frameBorder="0"
-                className="LandingPageVimeoPlayer__iframe"
+              src={`https://player.vimeo.com/video/792323441?h=bb57d65414&autoplay=1&muted=1&title=0&byline=0&portrait=0`}
+              width="100%"
+              height={pageWidth <= 1390 ? "300" : "400"}
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              frameBorder="0"
+              className="LandingPageVimeoPlayer__iframe"
+              title="Video_Atlanta"
+
             ></iframe>
+
             {showMessage && (
                 <div
                     className="LandingPageVimeoPlayer__bg"
