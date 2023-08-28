@@ -1,0 +1,95 @@
+.LandingPageThird__container {
+    background-image: linear-gradient(to bottom, rgba(46,53,70,0.79) 0%, rgba(46,53,70,0.79) 100%), url(https://d335luupugsy2.cloudfront.net/cms/files/580675/1673960752/$yeiuhym648);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom-style: none;
+    border-color: #000000;
+    border-left-style: none;
+    border-radius: 0px;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    gap: 90px;
+    padding: 80px;
+
+}
+
+.LandingPageThird__container h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.9rem;
+    margin-bottom: 5px;
+    font-size: 26px; 
+
+}
+
+.ant-radio-button-wrapper {
+    font-size: 18px !important;
+   
+}
+
+.LandingPageThird__firstSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+/* Quando não estiver selecionado */
+.ant-radio-button-wrapper {
+    border-color: #d9d9d9 !important; /* Cor da borda padrão */
+}
+
+/* Quando passar o mouse (hover) */
+.ant-radio-button-wrapper:hover {
+    color: #E7B866 !important; /* Cor ao passar o mouse */
+    border-color: #E7B866 !important; /* Cor da borda ao passar o mouse */
+}
+
+/* Quando estiver selecionado */
+.ant-radio-button-wrapper-checked {
+    color: white !important; /* Cor ao estar selecionado */
+    border-color: #E7B866 !important; /* Cor da borda ao estar selecionado */
+    background-color: #E7B866 !important;
+   
+    
+}
+
+.ant-radio-button-wrapper-checked:hover {
+    color: white !important; /* Cor ao estar selecionado */
+    border-color: #E7B866 !important; /* Cor da borda ao estar selecionado */
+    background-color: #E7B866 !important;
+   
+    
+}
+
+/* Alterar a cor do ponto central (se desejar) */
+.ant-radio-button-wrapper-checked .ant-radio-button-inner {
+    border-color: #E7B866 !important; /* Cor da parte central ao estar selecionado */
+}
+
+/* Corrige a cor do ponto central ao estar selecionado */
+:where(.css-dev-only-do-not-override-17a39f8).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    background-color: #E7B866 !important; /* Cor do ponto central ao estar selecionado */
+}
+
+.LadingPageFirst__Btn {
+    margin-top: 50px;
+}
+
+

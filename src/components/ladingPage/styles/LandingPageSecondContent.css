@@ -1,0 +1,118 @@
+.LandingPageSecond__container {
+    width: 100%;
+    height: auto;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding:100px;
+    padding-bottom: 70px;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    gap: 20px;
+    
+}
+
+.LandingPageSecond__title {
+    color: #cf9a40;
+    text-decoration: underline;
+    font-size: 32px;
+
+}
+
+.LandingPageSecond__container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px 0px;
+    text-align: justify;
+
+}
+
+.LandingPageSecond__container li {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.LandingPageSecond__container h2 {
+    color: #cf9a40;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.LandingPageSecond__container p {
+    color: #091D4B;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.8rem;
+    margin-bottom: 5px;
+   
+}
+
+.LandingPageSecond__loseMoney {
+    width: 35%;
+    height: auto;
+    /* background-color: rgba(230, 230, 230, 0.61); */
+    padding: 20px;
+    border-radius: 6px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); */
+
+}
+
+.LandingPageSecond__container img {
+    width: 29%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid  #cf9a40  ;
+
+}
+
+.LandingPageSecond__loseMoneyImg {
+    width: 600px;
+    height: 320px;
+
+}
+
+.ant-divider {
+    border-block-start: 2px solid rgba(5, 5, 5, 0.06);
+    
+}
+
+.LandingPageSecond__btn{
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: #d4a149;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    animation: reflectionAnimation 5s linear infinite;
+
+}
+
+.LandingPageSecond__btn:hover {
+    background-color:#e7b866 !important;;  
+    color: white;  
+    
+
+}
+
+.LandingPageSecond__btn:active {
+    background-color:#05235d !important;
+    color: white;  
+    max-width: 410px !important;
+    border: 1px solid white;
+
+}

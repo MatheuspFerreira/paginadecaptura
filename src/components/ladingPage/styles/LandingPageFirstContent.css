@@ -1,0 +1,104 @@
+header {
+    width: 100%;
+    height: 940px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.61) 100%), url(https://d335luupugsy2.cloudfront.net/cms/files/580675/1673898198/$w3zi1fctcg);
+    background-position-x: 0%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom-style: none;
+    border-color: #BBBBBB;
+    border-left-style: none;
+    border-radius: 0px;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    gap: 10px;
+ 
+}
+
+.LadingPageFirst__text strong {
+    font-weight: 500;
+}
+
+.LadingPageFirst__logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 60px;
+
+}
+
+.LadingPageFirst__LogoAtlanta {
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+}
+
+.LadingPageFirst__logoXp {
+    width: 100%;
+    max-width: 185px;
+    min-width: 100px;
+}
+
+.LadingPageFirst__textGold {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
+@keyframes reflectionAnimation {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  
+.LadingPageFirst__button {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    background-color:#d4a149;; 
+    /* background-image: linear-gradient(90deg, transparent 20%,white, #05235d,#05235d, white);
+    background-size: 200% 100%; */
+    color: white;
+    margin-top: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    animation: reflectionAnimation 5s linear infinite;
+
+}
+
+.LadingPageFirst__button:hover {
+    background-color:#e7b866 !important;;  
+    color: white;  
+    
+
+}
+
+.LadingPageFirst__button:active {
+    background-color:#05235d !important;
+    color: white;  
+    max-width: 410px !important;
+    border: 1px solid white;
+
+}
+
+
+
+
