@@ -10,8 +10,7 @@ export function LandingPageFooter (){
     }
 
     return(
-        <footer className="LandingPageFooter__container">
-            
+        <footer className="LandingPageFooter__container"> 
             <h2> Cuidando do seu futuro 
                 <br/>para que você aproveite o presente 
                 <br/><strong><em>ao lado de quem ama.</em></strong>
@@ -56,7 +55,9 @@ export function LandingPageFooter (){
                     <li>
                         <img 
                             src="https://d335luupugsy2.cloudfront.net/cms/files/580675/1673960752/$7e863jwf2ii" 
-                            alt="Logo_Instagram" 
+                            alt="Logo_Instagram"
+                            onClick={()=>  window.open('https://www.instagram.com/atlanta_invest/', '_blank')} 
+
                         />
 
                     </li>
@@ -64,6 +65,8 @@ export function LandingPageFooter (){
                         <img 
                             src="https://d335luupugsy2.cloudfront.net/cms/files/580675/1673960752/$n9vigljrih" 
                             alt="Logo_Facebook" 
+                            onClick={()=>  window.open('https://www.facebook.com/AtlantaInvest1', '_blank')} 
+
                         />
 
                     </li>
@@ -71,6 +74,8 @@ export function LandingPageFooter (){
                         <img 
                             src="https://d335luupugsy2.cloudfront.net/cms/files/580675/1673960752/$b4bzzmelje4" 
                             alt="Logo_Linkedin" 
+                            onClick={()=>  window.open('https://www.linkedin.com/company/alpha-investimentos/', '_blank')} 
+
                         />
 
                     </li>

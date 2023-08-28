@@ -77,26 +77,25 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 Seus investimentos, seu controle absoluto.  
                                 <br/>
                                 
-                                <strong><em>💼📈#ConexãoTotal#InvestimentosEmpoderados</em></strong>
-                            </p>
-                            
+                                <strong><em>💼📈#ConexãoTotal #InvestimentosEmpoderados</em></strong>
+                            </p>                         
 
                         </div>
 
                         <img 
                             src="https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/07/conta_digital.png?w=640&h=undefined&q=75"
-                            alt="" 
-                            className=""
+                            alt="App_XpInvestimentos" 
+                            
                         />
                         
                     </div>
-
                     <div className="LandingPageThirdAtlanta__plataforma">
                         <img 
                             src="https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2023/02/rico-henrico9811-bx.png?w=640&h=undefined&q=75"
-                            alt="" 
-                            className=""
+                            alt="Home__Broker" 
+                            
                         />
+
                         <div>
                             <h1>Desperte o Titã dos Investimentos Dentro de Você! 💥📈</h1>
                             <p>
@@ -107,13 +106,12 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 você possui recursos de primeira linha para dominar a bolsa. 
                                 Este é o poder de ter a XP Investimentos ao seu lado: você no controle, você no topo!  
                                 <br/>
-                                <strong><em>💼🏛️#TitãDosInvestimentos#AtlantaInvest</em></strong>
+                                <strong><em>💼🏛️#TitãDosInvestimentos #AtlantaInvest</em></strong>
 
                             </p>
 
                         </div>
 
-   
                     </div>
 
                     <div className="LandingPageThirdAtlanta__plataforma">                   
@@ -127,69 +125,61 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                                 Seu domínio financeiro se estende ao nosso super app, 
                                 permitindo que você controle cada detalhe com facilidade. 
                                 Com o Cartão XP, a liberdade financeira está nas suas mãos, 
-                                e os benefícios estão ao seu alcance. 💼💰  
+                                e os benefícios estão ao seu alcance.  
                                 <br/>
-                                <strong><em>💼💰#CartãoXP#LiberdadeFinanceira</em></strong>
+                                <strong><em>💼💰#CartãoXP #LiberdadeFinanceira</em></strong>
 
                             </p>
                         </div>
                         <img 
                             src="https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/07/cartao-xp-new.jpg?w=640&h=undefined&q=75"
-                            alt="" 
-                            className=""
+                            alt="Cartao_XpInvestimentos" 
+                            
                         />
 
-   
                     </div>
 
-                </div>
-                
-                    
-                   
-
-               
-
+                </div>                                                               
                 :
                 text === 'assessoria'
-                ?
-                
+                ?             
                 <div className="LandingPageThirdAtlanta__textAtlanta">
                     <div>
                         <h1>Renda Variável: Transforme volatilidade em oportunidade de crescimento.</h1>
-                    <p>
-                        Comandados pelo nosso excepcional Head especialista em renda variável, 
-                        transformamos a volatilidade do mercado em oportunidades de ouro. 
-                        Cada análise é afiada, cada estratégia é calculada, e cada movimento é preciso. 
-                        Aqui, a volatilidade não é uma ameaça, mas sim uma ferramenta para alcançar crescimento exponencial. 
-                        Esteja preparado para triunfar onde outros hesitam. 
-                        <br/>
-                        <strong><em>💼📈 #VolatilidadeEmDinheiro#Market</em></strong>  
-                    </p>
+                        <p>
+                            Comandados pelo nosso excepcional Head especialista em renda variável, 
+                            transformamos a volatilidade do mercado em oportunidades de ouro. 
+                            Cada análise é afiada, cada estratégia é calculada, e cada movimento é preciso. 
+                            Aqui, a volatilidade não é uma ameaça, mas sim uma ferramenta para alcançar crescimento exponencial. 
+                            Esteja preparado para triunfar onde outros hesitam. 
+                            <br/>
+                            <strong><em>💼📈 #VolatilidadeEmDinheiro#Market</em></strong>  
+                        </p>
 
                     </div>
-                        <div>
-                            <h1>Renda Fixa e Tesouro Direto: Renda fixa, mas resultados dinâmicos.</h1>
-                            <p>
-                                Garantimos estabilidade e crescimento inteligente para seus fundos. 
-                                Nossas opções de investimento de baixo risco são uma promessa cumprida. 
-                                E na renda fixa, onde os resultados podem parecer estáticos, revelamos a mágica dos juros compostos. 
-                                Aqui, o dinamismo é o que impulsiona o retorno sólido.
-                                <br/>
-                                <strong><em>💼💰 #JurosCompostos#RendaFixaDinâmica</em></strong>
-                            </p>
-                        </div>
-                        <div>
-                            <h1>Previdência Privada: Garanta um futuro confortável enquanto desfruta do presente.</h1>
-                            <p>
-                                Nossa expertise garante a planejamento seguro e personalizado para sua aposentadoria. 
-                                Estratégias meticulosas alinhadas às suas metas financeiras. E o melhor: 
-                                enquanto você desfruta do presente, construímos um futuro financeiramente sólido para você. Aqui, 
-                                a tranquilidade é uma conquista alcançável.
-                                <br/>
-                                <strong><em>💼🏖️ #FuturoConfortável#PresenteSeguro</em></strong>
+                    <div>
+                        <h1>Renda Fixa e Tesouro Direto: Renda fixa, mas resultados dinâmicos.</h1>
+                        <p>
+                            Garantimos estabilidade e crescimento inteligente para seus fundos. 
+                            Nossas opções de investimento de baixo risco são uma promessa cumprida. 
+                            E na renda fixa, onde os resultados podem parecer estáticos, revelamos a mágica dos juros compostos. 
+                            Aqui, o dinamismo é o que impulsiona o retorno sólido.
+                            <br/>
+                            <strong><em>💼💰 #JurosCompostos#RendaFixaDinâmica</em></strong>
+                        </p>
+                    </div>
+                    <div>
+                        <h1>Previdência Privada: Garanta um futuro confortável enquanto desfruta do presente.</h1>
+                        <p>
+                            Nossa expertise garante a planejamento seguro e personalizado para sua aposentadoria. 
+                            Estratégias meticulosas alinhadas às suas metas financeiras. E o melhor: 
+                            enquanto você desfruta do presente, construímos um futuro financeiramente sólido para você. Aqui, 
+                            a tranquilidade é uma conquista alcançável.
+                            <br/>
+                            <strong><em>💼🏖️ #FuturoConfortável#PresenteSeguro</em></strong>
 
-                            </p>
-                        </div>
+                        </p>
+                    </div>
 
                 </div>
 
@@ -199,12 +189,6 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
 
             }
             
-       
-                
-          
-          
-          
-
         </section>
     )
 }

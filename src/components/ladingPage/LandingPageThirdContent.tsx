@@ -46,17 +46,16 @@ export function LandingPageThirdContent (){
                 
                 />
 
-            <section className="LadingPageFirst__Btn">          
-                <h2 className="LadingPageFirst__textGold">Comece agora mesmo a construir seu futuro.</h2>
-                <CustomButton 
-                    text={"Começar agora"} 
-                    ghost={false} 
-                    onClick={()=>``} 
-                    className={"LandingPageSecond__btn"}
-                />
-            
+                <section className="LadingPageFirst__Btn">          
+                    <h2 className="LadingPageFirst__textGold">Comece agora mesmo a construir seu futuro.</h2>
+                    <CustomButton 
+                        text={"Começar agora"} 
+                        ghost={false} 
+                        onClick={()=>``} 
+                        className={"LandingPageSecond__btn"}
+                    />
 
-            </section>
+                </section>
 
             </div>
           
