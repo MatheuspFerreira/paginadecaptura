@@ -1,9 +1,11 @@
 
+import { useModalContext } from "../../context/ModalContext";
 import { CustomButton } from "../customButton";
 import { LandingPageVimeoPlayer } from "./LandingPageVimeoPlayer";
 import "./styles/LandingPageFirstContent.css";
 
 export function LadingPageFirstContent (){
+  const { setIsModalOpen } = useModalContext();
     
 
   return (
@@ -38,7 +40,7 @@ export function LadingPageFirstContent (){
             <CustomButton 
               text={"Começar agora"} 
               ghost={false} 
-              onClick={()=>``} 
+              onClick={()=>setIsModalOpen(true)} 
               className={"LadingPageFirst__button"}
             />
             

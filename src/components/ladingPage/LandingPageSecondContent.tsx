@@ -4,8 +4,10 @@ import loseMoney2 from "../../assets/lose_money2.webp"
 import loseAndEarn from "../../assets/lose_earn_money.jpeg"
 import { Divider } from "antd"
 import { CustomButton } from "../customButton"
+import { useModalContext } from "../../context/ModalContext"
 
 export function LandingPageSecondContent (){
+    const { setIsModalOpen } = useModalContext();
 
     return(
         <section className="LandingPageSecond__container">
@@ -93,7 +95,7 @@ export function LandingPageSecondContent (){
                 <CustomButton 
                     text={"Começar agora"} 
                     ghost={false} 
-                    onClick={()=>``} 
+                    onClick={()=>setIsModalOpen(true)} 
                     className={"LandingPageSecond__btn"}
                 />
             

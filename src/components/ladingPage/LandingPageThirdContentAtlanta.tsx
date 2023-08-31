@@ -20,7 +20,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                         className="LadingPageFirst__logoXp"
                         
                     />
-                </div>
+            </div>
             {
                 text === 'Atlanta_Invest'
                 ?
@@ -61,7 +61,6 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
 
                 </div>
 
-                
                 :
                 text === 'plataformas'
                 ?

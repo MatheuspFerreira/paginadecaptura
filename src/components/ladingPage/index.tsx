@@ -1,16 +1,15 @@
-import { LadingPageFirstContent } from "./LandingPageFirstContent";
-import { LandingPageFooter } from "./LandingPageFooter";
-import { LandingPageSecondContent } from "./LandingPageSecondContent";
-import { LandingPageThirdContent } from "./LandingPageThirdContent";
+import { ModalContextProvider } from "../../context/ModalContext";
+
+import { LandingPageContent } from "./LandingPageContent";
 
 
 export function LadingPage () {
+    
     return(
         <>
-            <LadingPageFirstContent />
-            <LandingPageSecondContent />
-            <LandingPageThirdContent/>
-            <LandingPageFooter />
+            <ModalContextProvider>      
+                <LandingPageContent/>
+            </ModalContextProvider>
         </>
     )
 }

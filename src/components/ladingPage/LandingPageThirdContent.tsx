@@ -3,10 +3,12 @@ import { Radio, RadioChangeEvent } from "antd";
 import "./styles/LandingPageThirdContent.css";
 import { LandingPageThirdContentAtlanta } from "./LandingPageThirdContentAtlanta";
 import { CustomButton } from "../customButton";
+import { useModalContext } from "../../context/ModalContext";
 
 
 export function LandingPageThirdContent (){
     const [value, setValue] = useState<string>('Atlanta_Invest');
+    const { setIsModalOpen } = useModalContext();
 
     const options = [
         { label: 'Sobre Atlanta Invest', value: 'Atlanta_Invest' },
@@ -51,7 +53,7 @@ export function LandingPageThirdContent (){
                     <CustomButton 
                         text={"Começar agora"} 
                         ghost={false} 
-                        onClick={()=>``} 
+                        onClick={()=> setIsModalOpen(true)} 
                         className={"LandingPageSecond__btn"}
                     />
 

@@ -7,7 +7,7 @@ export function LandingPageFooter (){
     const handleGoToAtlantaInvest = () =>{
         window.open('https://www.atlantainvest.com.br/', '_blank');
         
-    }
+    };
 
     return(
         <footer className="LandingPageFooter__container"> 
