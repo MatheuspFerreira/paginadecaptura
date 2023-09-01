@@ -15,10 +15,11 @@ export function MyModal ({content, isModalOpen, setIsModalOpen, text=""}:MyModal
     return (
       
         <Modal 
-            title={text} 
-            open={isModalOpen} 
-            onOk={handleOk} 
-            onCancel={handleCancel}
+          title={text} 
+          open={isModalOpen} 
+          onOk={handleOk} 
+          onCancel={handleCancel}
+          footer={false}
         >
           {content}
         </Modal>

@@ -152,7 +152,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                             Aqui, a volatilidade não é uma ameaça, mas sim uma ferramenta para alcançar crescimento exponencial. 
                             Esteja preparado para triunfar onde outros hesitam. 
                             <br/>
-                            <strong><em>💼📈 #VolatilidadeEmDinheiro#Market</em></strong>  
+                            <strong><em>💼📈 #VolatilidadeEmDinheiro #Market</em></strong>  
                         </p>
 
                     </div>
@@ -164,7 +164,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                             E na renda fixa, onde os resultados podem parecer estáticos, revelamos a mágica dos juros compostos. 
                             Aqui, o dinamismo é o que impulsiona o retorno sólido.
                             <br/>
-                            <strong><em>💼💰 #JurosCompostos#RendaFixaDinâmica</em></strong>
+                            <strong><em>💼💰 #JurosCompostos #RendaFixaDinâmica</em></strong>
                         </p>
                     </div>
                     <div>
@@ -175,7 +175,7 @@ export function LandingPageThirdContentAtlanta ({text}:LandingPageThirdContentTe
                             enquanto você desfruta do presente, construímos um futuro financeiramente sólido para você. Aqui, 
                             a tranquilidade é uma conquista alcançável.
                             <br/>
-                            <strong><em>💼🏖️ #FuturoConfortável#PresenteSeguro</em></strong>
+                            <strong><em>💼🏖️ #FuturoConfortável #PresenteSeguro</em></strong>
 
                         </p>
                     </div>
